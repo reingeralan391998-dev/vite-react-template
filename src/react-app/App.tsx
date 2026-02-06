@@ -31,7 +31,7 @@ function App() {
 					/>
 				</a>
 			</div>
-			<h1>Vite + React + Hono + Cloudflare</h1>
+			<h1>Hello, 一起来学习呀！</h1>
 			<div className="card">
 				<button
 					onClick={() => setCount((count) => count + 1)}
