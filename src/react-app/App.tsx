@@ -13,26 +13,15 @@ function App() {
 
 	return (
 		<>
-			<div>
-				<a href="https://vite.dev" target="_blank">
-					<img src={viteLogo} className="logo" alt="Vite logo" />
-				</a>
-				<a href="https://react.dev" target="_blank">
-					<img src={reactLogo} className="logo react" alt="React logo" />
-				</a>
-				<a href="https://hono.dev/" target="_blank">
-					<img src={honoLogo} className="logo cloudflare" alt="Hono logo" />
-				</a>
-				<a href="https://workers.cloudflare.com/" target="_blank">
-					<img
-						src={cloudflareLogo}
-						className="logo cloudflare"
-						alt="Cloudflare logo"
-					/>
-				</a>
-			</div>
 			<h1>Vite + React + Hono + Cloudflare</h1>
-			<h2>It's my webpage.</h2>
+			<a href="https://vite.dev" target="_blank">Vite
+			</a>
+			<a href="https://react.dev" target="_blank">React
+			</a>
+			<a href="https://hono.dev/" target="_blank">Hono
+			</a>
+			<a href="https://workers.cloudflare.com/" target="_blank">Cloudflare</a>
+
 			<div className="card">
 				<button
 					onClick={() => setCount((count) => count + 1)}
@@ -60,6 +49,9 @@ function App() {
 				</p>
 			</div>
 			<p className="read-the-docs">Click on the logos to learn more</p>
+			<a href="https://developer.mozilla.org/zh-CN/docs/Web/HTML" target="_blank">HTML（超文本标记语言）</a>
+			<a href="https://zh.javascript.info/intro" target="_blank">JavaScript</a>
+			<a href="https://leetcode.com" target="_blank">Leetcode</a>
 		</>
 	);
 }
