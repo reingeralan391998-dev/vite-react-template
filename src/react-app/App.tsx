@@ -32,6 +32,7 @@ function App() {
 				</a>
 			</div>
 			<h1>Hello, 一起来学习呀！</h1>
+			<a href="https://fastapi.tiangolo.com/" target="_blank">FastAPI</a>
 			<div className="card">
 				<button
 					onClick={() => setCount((count) => count + 1)}
